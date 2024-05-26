@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* width: 100%; */
+    min-height: 100vh;
+    font-family: "Be Vietnam Pro", sans-serif;;
+    font-style: normal;
+}
+.wrapper {
+    /* width: 100%; */
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+    /* aspect-ratio: 16/9; */
+}
+.airplane {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    aspect-ratio: 16/9;
+}
+.heading {
+    color: hsl(0, 0%, 98%);
+    position: absolute;
+    margin-top: -180px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.head {
+    color: hsl(0, 0%, 98%);
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 30px;
+}
+.info {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top: 110%;
+    border-radius: 8px;
+    left: 50%;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dropdowns {
+    margin-right: 10px; /* Adjust as needed */ 
+    position: absolute;
+    top: 5%;
+    font-weight: 550;
+    left: 13%;
+}
+.dropdown {
+    position: absolute;
+    font-weight: 550;
+    top: 5%;
+    left: 1%;
+}
+.dropDown {
+    position: absolute;
+    font-weight: 550;
+    top: 5%;
+    left: 26%;   
+}
+.question {
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    color: hsl(227, 12%, 61%);
+}
+
+.userInput {
+    position: absolute;
+    top: 60%;
+    left: 2%;
+}
+.from {
+    color: hsl(233, 12%, 13%);
+    margin-bottom: 2px;
+}
+.input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid hsl(227, 12%, 61%);
+    color: hsl(227, 12%, 61%);
+}
+.userInput_two {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+}
+.to {
+    color: hsl(233, 12%, 13%);
+    margin-bottom: 2px; 
+}
+.userInput_three {
+    position: absolute;
+    top: 60%;
+    left: 54%;
+}
+.input_passenger, .date {
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid hsl(227, 12%, 61%);
+    color: hsl(227, 12%, 61%);
+}
+.userInput_four {
+    position: absolute;
+    top: 60%;
+    right: 20%;
+}
+.button{
+    position: absolute;
+    top: 65%;
+    right: 5%;
+}
+.btn {
+    border: transparent;
+    background-color: hsla(219, 88%, 53%, 0.971);
+    color: hsl(0, 0%, 98%);
+    padding: 15px 30px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 50px;
+}
+.btn:hover {
+    background-image: linear-gradient(rgb(67, 147, 244),white);
+}
+.last_heading {
+    color: hsl(233, 12%, 13%);
+    margin-top: 150px;
+    margin-left: 35px;
+    padding-bottom: 10px;
+}
+.card {
+    width: 350px;
+    height: 200px;
+    border: 1px solid hsl(227, 12%, 61%);
+    margin-left: 30px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to bottom right,hsl(219, 83%, 51%), hsl(203, 95%, 67%));
+    /* background-image: linear-gradient(to bottom right, red, yellow); */
+    /* background-color: hsl(196, 84%, 51%); */
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+.secondprofile {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to bottom right,hsl(317, 96%, 60%), hsl(335, 96%, 49%));
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+.thirdprofile {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to bottom right,hsl(45, 96%, 60%), hsl(37, 96%, 44%));
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+.lastprofile {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(to bottom right,hsl(102, 89%, 31%), hsl(112, 90%, 57%));
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+.name {
+    margin-left: 3px;
+    margin-top: 20px;
+    font-size: 12px;
+    display: inline-block;
+    width: 90px;
+}
+.id {
+    margin-bottom: 0;
+    margin-right: 12px;
+    font-size: 11px;
+    color: rgb(204, 204, 204);
+    
+}
+.numbers{
+    margin-top: 0;
+    margin-right: 3px;
+    font-size: 12px;
+}
+.right{
+    text-align: right;
+    display: inline-block;
+    width: 90px;
+    position: absolute;
+    margin-top: 10px;
+    right: 3%;
+    /* padding-left: 90px; */
+}
+.left {
+    display: inline-block;
+    /* width: 180px; */
+    /* margin-left: -45px; */
+    /* margin-top: -7px; */
+    margin-left: 10px;
+}
+.aboutFlight {
+    width: 50%;
+}
+.aboutFlightRight {
+    width: 50%;
+    float: right;
+    position: absolute;
+    top: 30%;
+    right: -10%;
+    margin-bottom: 20px;
+}
+.pick {
+    font-size: 11px;
+}
+.fromWhereWePickThePassager {
+    font-size: 12px;
+    font-weight: 600;
+}
+.Toright {
+    /* text-align: right; */
+    display: inline-block;
+    
+}
+.alight {
+    font-size: 11px; 
+    /* margin-right: 120px; */
+}
+.WhereThePassagerAlight {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.hrLine {
+    width: 90%;
+    border: 0;
+    text-align: center;
+    margin: 2px 15px;
+    /* margin: 0 auto; */
+    border-top: 2px dashed rgb(204, 204, 204);
+    display: block;
+    left: 10%;
+}
+.total {
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: end;
+}
+
+.total-price{
+    padding: 10px;
+}
+
+
+.totalAmount {
+    font-size: 11px;
+}
+.money {
+    font-size: 12px;
+    font-weight: 600;
+
+}
+/* .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} */
+#payment, #typeOfPayment, #regular{
+    border-radius: 25px;
+    padding: 5px 5px;
+}
+
+.card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
